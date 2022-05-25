@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header-logo {
@@ -28,8 +29,52 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 72px;
+    height: 76px;
 }
 
+.placeholder {
+    width: 450px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    height: 26pc;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    flex-flow: column wrap;
+
+}
+
+.left-hero {
+    max-width: 370px;
+    max-height: 370px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.secondarytext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    height: 26px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    margin-top: 10px;
+    font-size: 14px;
+}
 
 
