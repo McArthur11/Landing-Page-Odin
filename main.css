@@ -115,20 +115,31 @@ button {
     margin-top: 60px;
 }
 
-.above-footer {
+.inspiration {
     display: flex;
+    /* flex-flow: column; */
     background-color: #e5e7eb;
     height: 440px;
-}
-
-.inspiration {
-    flex-direction: column;
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-
 }
+
+.quote {
+    max-width: 800px;
+    font-size: 26px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.calvin {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    color: #1f2937 ;
+    font-size: 19px;
+}
+
+
 
 
 
