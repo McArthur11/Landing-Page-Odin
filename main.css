@@ -185,6 +185,19 @@ h1 {
     /* margin-left: 0px; */
 }
 
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footext {
+    display: flex;
+    color: #e5e7eb;
+}
+
 
 
 
