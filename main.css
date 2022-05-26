@@ -65,7 +65,7 @@ h1 {
     color: #e5e7eb;
 }
 
-button {
+.buttonup {
     background-color: #3882f6;
     color: #e5e7eb;
     width: 100px;
@@ -137,6 +137,52 @@ button {
     font-weight: bold;
     color: #1f2937 ;
     font-size: 19px;
+}
+
+.above-footer {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.bluecontainer {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #3882f6;
+    height: 120px;
+    width: 900px;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.signbutton {
+    height: 30px;
+    width: 100px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+}
+
+.calltext , .signtext {
+    color: #e5e7eb;
+}
+
+.calltext {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.push-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 0px; */
 }
 
 
